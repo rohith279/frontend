@@ -1,0 +1,321 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+}
+
+.main-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container-fluid {
+  background: linear-gradient(175deg, rgba(1, 0, 18, 1) 0%, rgba(0, 19, 95, 1) 50%, rgba(120, 82, 123, 1) 100%);
+  /*background-color: #00082A;*/
+  /* background-color: #42356E; */
+  color: #dedede;
+}
+
+.offcanvas-body,
+.offcanvas-header {
+  color: #fff;
+  background-color: #010E4A;
+}
+
+.btn-close {
+  color: #fff;
+  background-color: #fff;
+  background: url('');
+}
+
+.sidebar {
+  flex: 2;
+  border-right: 1px solid;
+  background-color: #010E4A;
+
+  /* background-color: #020618; */
+  /* background-color: #241C3B;*/
+
+  justify-content: space-between;
+
+  border: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.logo {
+  margin-right: 1rem;
+}
+
+.userImage {
+
+}
+
+.main {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 6rem 5rem;
+  margin-bottom: 0;
+}
+
+
+@media (max-width: 1280px) {
+  .main {
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .main {
+    margin: 1rem 0rem;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 600px) {
+  .main {
+    margin: 1rem 3rem;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .main {
+    margin: 3rem 3rem;
+  }
+}
+
+@media (max-width: 2800px) and (min-width: 1200px) {
+  .main {
+    margin: 1rem 3rem;
+  }
+}
+
+/* .upperSideBottom{
+  border: 1px solid;
+} */
+
+@media (max-height: 300px) {
+  .upperSideBottom {
+    max-height: 8rem;
+  }
+}
+
+@media (max-height: 450px) and (min-height: 300px) {
+  .upperSideBottom {
+    max-height: 10rem;
+
+  }
+}
+
+@media (max-height: 750px) and (min-height: 450px) {
+  .upperSideBottom {
+    max-height: 21rem;
+  }
+}
+
+@media (max-height: 2800px) and (min-height: 1200px) {
+  .main {
+    margin: 1rem 3rem;
+  }
+}
+
+
+
+.midBtn {
+  background: #8d8383;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.addBtn {
+  height: 2rem;
+  padding-right: 1.5rem;
+}
+
+
+/* .lowerSide {
+  padding: 0.5rem;
+} */
+
+.chatFooter {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inp {
+  padding: 0.5rem;
+  /* background-color: rgba(28, 30, 58, 1); */
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 68rem;
+}
+
+
+.inp>input,
+.send {
+  background-color: #007bff;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 1rem;
+
+  /* color: white; */
+}
+
+.inp>input {
+  width: calc(100% - 3rem);
+  background-color: transparent;
+  padding: 1rem;
+  border: 1px solid #007bff;
+  color: #fff;
+  outline: none;
+}
+
+.inp>input:focus {
+  background-color: transparent;
+  padding: 1rem;
+  border: 1px solid #007bff;
+  color: #fff;
+  outline: none;
+}
+
+.inp>input::placeholder {
+  color: #fff;
+}
+
+.current{
+
+  background-color: #fff !important;
+  color: #000 !important
+}
+
+.chats {
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 70rem;
+  height: calc(100vh - 20rem);
+}
+
+
+.chat {
+  margin: 1rem;
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: start;
+  text-align: justify;
+}
+
+.user {
+  padding: 0;
+}
+
+.generate-more {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+
+.generate-more-button {
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: #dedede;
+
+  margin-right: 50px;
+
+  border-radius: 15px;
+  padding: 10px 20px 12px;
+  transition: color .5s ease, background-color .5s ease;
+}
+
+.generate-more-button:hover {
+  background-color: transparent;
+  color: #007bff;
+}
+
+.generate-more-button:active {
+  filter: brightness(.8);
+}
+
+@media (max-width: 600px) {
+
+  /* Adjust the max-width as needed for the "sm" breakpoint */
+  .chat {
+    padding: 1rem;
+  }
+}
+
+.chatImg {
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8d8383;
+  color: white;
+}
+
+.bot {
+  background: rgba(213, 213, 224, 0.459);
+  width: fit-content;
+  border-radius: 0.5rem;
+}
+
+.bubble {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 72px;
+  width: 80px;
+  padding: 0 8px;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgb(194, 190, 189);
+  animation: bounce 1000ms infinite;
+}
+
+.dot:nth-of-type(2) {
+  animation-delay: 100ms;
+}
+
+.dot:nth-of-type(3) {
+  animation-delay: 200ms;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(-10px);
+  }
+
+  40% {
+    transform: translateY(0);
+  }
+}
