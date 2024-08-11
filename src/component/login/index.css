@@ -1,8 +1,0 @@
-.background {
-    background: rgb(1,0,18);
-    background: linear-gradient(140deg, rgba(1,0,18,1) 0%, rgba(0,19,95,1) 50%, rgba(120,82,123,1) 100%);
-}
-.signin-btn{
-    background-color: rgb(43,42,105) !important;
-    color: white !important;
-}
