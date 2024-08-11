@@ -1,8 +1,8 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Rohit Vuyyala Cheated 
 
-Currently, two official plugins are available:
+This person came to us to create his project but paid only partial amount. He is keep on saying that he will pay in this date and that date but he is not paying. Also he have changed all his passwords, thinking that he can cheat us. But he dont know how github works and he dont know that we can remove the code from his repository.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### IF YOU ARE HIS TUTOR, PLEASE GET IN TOUCH WITH US, SO THAT WE CAN PROVIDE YOU WITH MORE PROOF THAT HE IS DOING ACADEMIC MISSCONDUCT.
+
+Our Email: info@zapeel.com
